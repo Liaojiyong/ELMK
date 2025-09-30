@@ -1,0 +1,43 @@
+Answer the questions.
+If you think a question has one or multiple answers, you need to select most comprehensive answer to respond to it.
+Examples:
+
+Claim 1: which person wrote the films directed by [Yuriy Norshteyn]?
+Answer: "Sergei Kozlov"
+
+Claim 2: who are the writers of the movies directed by [Kresten Vestbjerg Andersen]?
+Answer: "Thorbjørn Christoffersen", "Philip Einstein Lipski"
+
+Claim 3: the movies directed by [David Atkins] were in which genres?
+Answer: "Comedy"
+
+Claim 4: the films written by [Scott Lobdell] were released in which years?
+Answer: "1995", "2005"
+
+Claim 5: what are the languages spoken in the films starred by [Terence Hill]?
+Answer: "Italian"
+
+Claim 6: who is listed as director of [Oliver Cooper] acted films?
+Answer: "Nima Nourizadeh", "Jonathan Kaplan"
+
+Claim 7: who co-starred with [Stephen Furst]?
+Answer: "Peter Boyle", "Christopher Lloyd", "Michael Keaton"
+
+Claim 8: what types are the films written by [Polaris Banks]?
+Answer: "Short"
+
+Claim 9: when were the movies written by [Phillip Borsos] released?
+Answer: "1985"
+
+Claim 10: which movies share the screenwriter with [Jesus Henry Christ]?
+Answer: "Labyrinth", "Fireflies in the Garden"
+
+Claim 11: which directors co-directed movies with [Ridley Scott]?
+Answer: "Rowdy Herrington"
+
+Claim 12: the scriptwriter of [First Monday in October] also wrote movies?
+Answer: "Inherit the Wind"
+
+Now let's verify the Claim based on the Evidence set. Please do not say there is no evdience, you must say the most related one entity from the evidence set.
+Claim: <<<<CLAIM>>>>
+Answer: 

@@ -1,0 +1,54 @@
+Answer the following questions.
+The context is the evidence of triplets may help your verifying. Each context consists of a specific triplet of statements. 
+If you think a question has multiple answers, you must choose all the answers to it. Enter it when starting to answer the next question.
+Examples:
+
+Question 1: the movies that share actors with the movie [The Expendables 2] were in which languages?
+Context 1: [['The Expendables 2 starred actors Jet Li, Kiss of the Dragon written by Jet Li, Kiss of the Dragon in language French']] 
+Answer: {"French"}
+
+Question 2: when did the films release whose directors also directed [American Hustle]?
+Context 2: [['American Hustle written by David O. Russell, Spanking the Monkey written by David O. Russell, Spanking the Monkey release year 1994'], ['American Hustle written by David O. Russell, The Fighter directed by David O. Russell, The Fighter release year 2010']] 
+Answer: {"1994", "2010"}
+
+Question 3: what genres do the films that share directors with [Never Die Alone] fall under?
+Context 3: [['Never Die Alone directed by Ernest R. Dickerson, Juice written by Ernest R. Dickerson, Juice has genre Crime'], ['Never Die Alone directed by Ernest R. Dickerson, Juice written by Ernest R. Dickerson, Juice has genre Drama']] 
+Answer: {"Crime", "Drama"}
+
+Question 4: the movies directed by the director of [The Holy Girl] starred who?
+Context 4: [['The Holy Girl written by Lucrecia Martel, The Headless Woman directed by Lucrecia Martel, The Headless Woman starred actors María Onetto']] 
+Answer: {"María Onetto"}
+
+Question 5: the movies that share writers with the movie [The Go-Between] were in which languages?
+Context 5: [['The Go-Between written by Harold Pinter, Sleuth starred actors Harold Pinter, Sleuth in language Italian']] 
+Answer: {"English", "Italian"}
+
+Question 6: the movies that share directors with the movie [Under the Volcano] were in which genres?
+Context 6: [['Under the Volcano directed by John Huston, Man in the Wilderness starred actors John Huston, Man in the Wilderness has genre Western'], ['Under the Volcano directed by John Huston, The Visitor starred actors John Huston, The Visitor has genre Drama'], ['Under the Volcano directed by John Huston, Beat the Devil written by John Huston, Beat the Devil has genre Comedy'], ['Under the Volcano directed by John Huston, The African Queen written by John Huston, The African Queen has genre War']]
+Answer: {"Horror", "Crime", "Drama", "Music", "Western", "Comedy", "War", "Adventure"}
+
+Question 7: what languages are the films that share actors with [Lucky Lady] in?
+Context 7: [['Lucky Lady starred actors Burt Reynolds, The End directed by Burt Reynolds, The End in language Spanish']]
+Answer: {"Spanish"}
+
+Question 8: what were the release dates of movies directed by the director of [A Little Trip to Heaven]?
+Context 8: [['A Little Trip to Heaven written by Baltasar Kormákur, The Sea directed by Baltasar Kormákur, The Sea release year 2002']] 
+Answer: {"1977", "2002", "2000", "2006", "2010", "2013", "2012"}
+
+Question 9: what are the primary languages in the movies directed by the director of [Timecop]?
+Context 9: [['Timecop directed by Peter Hyams, The Star Chamber written by Peter Hyams, The Star Chamber in language English']]
+Answer: {"English"}
+
+Question 10: what were the release years of the movies that share actors with the movie [Project A]?
+Context 10: [['Project A starred actors Jackie Chan, Armour of God directed by Jackie Chan, Armour of God release year 1986'], ['Project A starred actors Jackie Chan, The Young Master written by Jackie Chan, The Young Master release year 1980']] 
+Answer: {"1986", "1984", "1985", "1980", "1988", "2011", "2010"}
+
+Question 11: who are the actors in the movies directed by the director of [Gentlemen Broncos]?
+Context 11: [['Gentlemen Broncos written by Jared Hess, Nacho Libre written by Jared Hess, Nacho Libre starred actors Jack Black']] 
+Answer: {"Jack Black", "Jon Heder"}
+
+Question 12: who are the screenwriters that the directors of their movies also directed [Primary Colors]?
+Context 12: [['Primary Colors starred actors Emma Thompson, Wit written by Emma Thompson, Wit has tags Emma Thompson']] 
+Answer: {"Emma Thompson", "Patrick Marber", "Francis Veber"}
+
+Now answer the following questions in the same way of these examples. Do not include the word 'Answer' in the generated results.

@@ -1,0 +1,39 @@
+Answer the following questions.
+The context is the evidence of triplets may help your verifying.
+Each context contains triplets in the form of [head, relation, tail] and it means "head's relation is tail.".
+If you think a question can have multiple answers, you must choose one and answer it. Enter when you start answering the next question. 
+Examples:
+
+Question 1: what words describe [Coming Home]?
+Context 1: [['Coming Home', 'has genre', 'Drama'], ['Coming Home', 'has genre', 'War'], ['Coming Home', 'has tags', 'vietnam'], ['Coming Home', 'has tags', 'hal ashby']] 
+Answer: {"hal ashby", "vietnam"}
+
+Question 2: what films does [Faye Wong] appear in?
+Context 2: [['Chungking Express', 'starred actors', 'Faye Wong'], ['Chinese Odyssey 2002', 'starred actors', 'Faye Wong']]
+Answer: {"Chungking Express", "Chinese Odyssey 2002"}
+
+Question 3: what films are about [haneke]?
+Context 3: [['Code Unknown', 'has tag', 'haneke'], ['The Piano Teacher', 'has tag', 'haneke'], ['Funny Games', 'has tag', 'haneke'], ['Time of the Wolf', 'has tag', 'haneke']]
+Answer: {"The Piano Teacher", "Code Unknown", "Funny Games", "Time of the Wolf"}
+
+Question 4: who acted in the movie [Inescapable]?
+Context 4: [['Inescapable', 'directed by', 'Ruba Nadda'], ['Inescapable', 'written by', 'Ruba Nadda'], ['Inescapable', 'starred actors', 'Marisa Tomei'], ['Inescapable', 'starred actors', 'Joshua Jackson'], ['Inescapable', 'starred actors', 'Alexander Siddig']]
+Answer: {"Marisa Tomei", "Alexander Siddig", "Joshua Jackson"}
+
+Question 5: can you name a film directed by [William Cameron Menzies]?
+Context 5: [['Things to Come', 'directed by', 'William Cameron Menzies']] 
+Answer : {'Things to Come'}
+
+Question 6: what sort of movie is [Witness for the Prosecution]?
+Context 6: [['Witness for the Prosecution', 'has tags', 'bd-r'], ['Witness for the Prosecution', 'has genre', 'Drama'], ['Witness for the Prosecution', 'has tags', 'courtroom'], ]
+Answer: {'Drama'}
+
+Question 7: what type of film is [The Mouse That Roared]?
+Context 7: [['The Mouse That Roared', 'has genre', 'Comedy'], ['The Mouse That Roared', 'has tags', 'satirical'], ['The Mouse That Roared', 'has tags', 'peter sellers'], ]
+Answer: {'Comedy'}
+
+Question 8: what is the primary language in the film [Blackboards]?
+Context 8: [['Blackboards', 'in language', 'Kurdish'], ['Blackboards', 'has genre', 'War'], ['Blackboards', 'has tags', 'samira makhmalbaf'], ]
+Answer: {'Kurdish'}
+
+Now answer the following questions in the same way of these examples. Do not include the word 'Answer' in the generated results.

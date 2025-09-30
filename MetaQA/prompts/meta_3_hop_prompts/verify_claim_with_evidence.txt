@@ -1,0 +1,25 @@
+Answer the questions based on evidence.
+Each evidence is in the form of [head, relation, tail] and it means "head's relation is tail.".
+If you think a question has one or multiple answers, you need to select most comprehensive answer to respond to it.
+Examples:
+
+Claim 1: "the movies that share writers with the movie [The Wedding Party] were released in which years?
+Evidence set: [["The Wedding Party", "directed_by", "Brian De Palma", "~written_by", "Phantom of the Paradise", "release_year", "1974"], ["The Wedding Party", "directed_by", "Brian De Palma", "~written_by", "Snake Eyes", "release_year", "1998"]]
+Answer: "1974", "1998"
+
+Claim 2: when did the movies release whose directors also directed [Rent]?
+Evidence set: [["Rent", "directed_by", "Chris Columbus", "~written_by", "Only the Lonely", "release_year", "1991"]]
+Answer: '1991'
+
+Claim 3: who is listed as screenwriter of the films directed by the [Lisa Picard Is Famous] director?
+Evidence set: [["Lisa Picard Is Famous", "starred_actors", "Griffin Dunne", "~directed_by", "The Accidental Husband", "written_by", "Mimi Hare"]]
+Answer: "Mimi Hare"
+
+Claim 4: what were the release years of the movies that share screenwriters with the movie [Gang Related]?
+Evidence set: [["Gang Related", "written_by", "Jim Kouf", "~directed_by", "Miracles", "release_year", "1986"], ["Gang Related", "written_by", "Jim Kouf", "~written_by", "The Hidden", "release_year", "1987"]]
+Answer: "1986", "1987"
+
+Now let's verify the claim based on the evidence set, the answer must be the last entity, and do not output sentences or other types of answers.
+Claim: <<<<CLAIM>>>>
+Evidence set: <<<<EVIDENCE_SET>>>>
+Answer: 

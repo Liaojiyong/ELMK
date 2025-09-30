@@ -1,0 +1,19 @@
+Answer the questions.
+If you think a question has one or multiple answers, you need to select most comprehensive answer to respond to it.
+Examples:
+
+Claim 1: "the movies that share writers with the movie [The Wedding Party] were released in which years?
+Answer: "1974", "1998"
+
+Claim 2: when did the movies release whose directors also directed [Rent]?
+Answer: '1991'
+
+Claim 3: who is listed as screenwriter of the films directed by the [Lisa Picard Is Famous] director?
+Answer: "Mimi Hare"
+
+Claim 4: what were the release years of the movies that share screenwriters with the movie [Gang Related]?
+Answer: "1986", "1987"
+
+Now let's verify the claim based on the evidence set, the answer must be the last entity, and do not output sentences or other types of answers.
+Claim: <<<<CLAIM>>>>
+Answer: 

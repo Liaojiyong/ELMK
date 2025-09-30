@@ -1,0 +1,45 @@
+Answer the question based on the evidence.
+If you think a question has one or multiple answers, you need to select most comprehensive answer to respond to it.
+
+Examples:
+
+Claim 1: which topics is [Weekend] about?
+Answer: "french", "french new wave"
+
+Claim 2: who was the writer of the film [Net Worth]?
+Answer: "Don Truckey", "David Cruise", "Phil Savath"
+
+Claim 3: which movies can be described by [kiss]?
+Answer: "Just My Luck"
+
+Claim 4: which films can be described by [artist]?
+Answer: "Vicky Cristina Barcelona", "Andrei Rublev", "Basquiat", "The Horse's Mouth"
+
+Claim 5: what genre does [Agent Red] fall under?
+Answer: "Action"
+
+Claim 6: what movies did [Janet Suzman] star in?
+Answer: Nuns on the Run", "A Dry White Season", "Nicholas and Alexandra
+
+Claim 7: [Candice Azzara] appears in which movies?
+Answer: "Easy Money", "Fatso"
+
+Claim 8: what was the release year of the movie [As Good as It Gets]?
+Answer: "1997"
+
+Claim 9: [Ulli Lommel] directed which films?
+Answer: "The Tomb", "Diary of a Cannibal", "The Raven"
+
+Claim 10: which topics is [Love Actually] about?
+Answer: "comedy", "r", "british", "christmas", "love", "london", "romantic", "richard curtis"
+
+Claim 11: which movie did [Wendelin Van Draanen] write?
+Answer: "Flipped"
+
+Claim 12: what film did [Chazz Palminteri] write?
+Answer: "A Bronx Tale", "Faithful"
+
+Now let's verify the Claim based on the Evidence set, you must say the most related one entity from the evidence set. 
+Respond ONLY with a JSON set of answers, e.g., {"Entity1"}, and do NOT include any prefix like 'Answer:'.
+Claim: <<<<CLAIM>>>>
+Answer: 

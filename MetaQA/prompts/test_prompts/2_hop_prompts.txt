@@ -1,0 +1,55 @@
+Answer the following questions.
+The context is the evidence of triplets may help your verifying. Each context consists of a specific triplet of statements. 
+If you think a question can have multiple answers, you must select one and answer it. Enter it when you begin answering the next question.
+Examples:
+
+Question 1: when were the movies written by [Jira Maligool] released?
+Context 1: [['The Iron Ladies written by Jira Maligool, The Iron Ladies release year 2000]] 
+Answer: {"2000"}
+
+Question 2: who are the actors of the screenwriter [George Haight]?
+Context 2: [['Gold Diggers of 1937 written by George Haight, Gold Diggers of 1937 starred actors Joan Blondell'], ['Gold Diggers of 1937 written by George Haight, Gold Diggers of 1937 starred actors Dick Powell'], ['Gold Diggers of 1937 written by George Haight, Gold Diggers of 1937 starred actors Victor Moore']] 
+Answer: {"Joan Blondell", "Dick Powell", "Victor Moore"}
+
+Question 3: which films have the same director of [Man to Man]?
+Context 3: [['Man to Man written by Régis Wargnier, Indochine Régis written by Régis Wargnier'], ['Man to Man written by Régis Wargnier, Indochine Régis directed by Régis Wargnier']] 
+Answer: {"Indochine"}
+
+Question 4: who are the actors in the movies written by [Sidney Biddell]?
+Context 4: [['Dead Reckoning written by Sidney Biddell, Dead Reckoning starred actors Humphrey Bogart'], ['Dead Reckoning written by Sidney Biddell, Dead Reckoning starred actors Morris Carnovsky'], ['Dead Reckoning written by Sidney Biddell, Dead Reckoning starred actors Lizabeth Scott']] 
+Answer: {"Humphrey Bogart", "Morris Carnovsky", "Lizabeth Scott"}
+
+
+Question 5: what were the release years of the movies written by [David Ondaatje]?
+Context 5: [['The Lodger directed by David Ondaatje, The Lodger release year 1944'], ['The Lodger directed by David Ondaatje, The Lodger release year 1927'], ['The Lodger directed by David Ondaatje, The Lodger release year 2009']] 
+Answer: {"1944", "1927", "2009"}
+
+Question 6: who is listed as director of [Robert Harari] written films?
+Context 6: [['A Foreign Affair written by Robert Harari, A Foreign Affair directed by Billy Wilder']] 
+Answer: {"Billy Wilder"}
+
+Question 7: who are the directors of the movies acted by [Aidan Devine]?
+Context 7: [['Net Worth starred actors Aidan Devine, Net Worth directed by Jerry Ciccoritti']] 
+Answer: {"Jerry Ciccoritti"}
+
+Question 8: what genres are the films written by [Bill Gallagher] in?
+Context 8: [['Blood written by Bill Gallagher, Blood has genre Thriller'], ['Blood written by Bill Gallagher, Blood has genre Crime']] 
+Answer: {"Thriller", "Crime"}
+
+Question 9: when did the films starred by [Jimmy Hunt] release?
+Context 9: [['Invaders from Mars starred actors Jimmy Hunt, Invaders from Mars release year 1986'], ['Invaders from Mars starred actors Jimmy Hunt, Invaders from Mars release year 1953']]
+Answer: {"1986", "1953"}
+
+Question 10: which person directed the films acted by [Louis Herthum]?
+Context 10: [['The Last Exorcism starred actors Louis Herthum, The Last Exorcism directed by Daniel Stamm']]
+Answer: {"Daniel Stamm"}
+
+Question 11: what were the release years of the movies written by [Jeremy Passmore]?
+Context 11: [['Vice written by Jeremy Passmore, Vice Prince release year 2008'], ['Vice written by Jeremy Passmore, Vice Prince release year 2015'], ['Special written by Jeremy Passmore,Special release year 2006']]
+Answer: {"2015", "2006", "2008"}
+
+Question 12: who starred in the films directed by [Ana Kokkinos]?
+Context 12: [['Head On written by Ana Kokkinos, Head On starred actors Alex Dimitriades']]
+Answer: {"Alex Dimitriades"}
+
+Now answer the following questions in the same way of these examples. Do not include the word 'Answer' in the generated results.
