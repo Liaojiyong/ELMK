@@ -17,6 +17,7 @@ Write your own OpenAI API key in factkg/openai_api_key.txt and MetaQA/openai_api
 ## 3. Building of the Training Data
 
 To build the specific training subgraph from the original datasets:
+
 Run
 
     cd MetaQA/encoder
@@ -28,6 +29,7 @@ Run
 ## 4. Training
 
 To train our model on subgraph:
+
 Run
 
     cd MetaQA/encoder
