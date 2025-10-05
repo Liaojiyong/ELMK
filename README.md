@@ -39,6 +39,7 @@ Run
 ## 4. Evaluation
 
 To test the trained model:
+
 Run
 
     cd MetaQA/test
