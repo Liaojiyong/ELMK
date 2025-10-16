@@ -46,7 +46,7 @@ no_evidence_prompt = open_file(f'../prompts/meta_{hop}_hop_prompts/verify_claim_
 context_prompt = open_file(f'../prompts/meta_{hop}_hop_prompts/verify_claim_with_evidence.txt')
 api_key = open_file('../openai_api_key.txt')
 kb = '../data/kb.txt'
-base_url = "https://xh.v1api.cc/v1"
+base_url = "xxxxx"       # input your url
 client = make_openai_client(api_key, base_url=base_url)
 model_name = 'gpt-4o-mini'
 max_tokens = 500
