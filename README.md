@@ -50,6 +50,15 @@ Run
     python evaluate.py --hop <hop> --k <Tok-k>
     cd ..
 
+## Experimental Settings
+
+We have incorporated two baseline methods and benchmark datasets:
+“`markdown
+| 列1    | 列2    | 列3   |
+|——|——|—–|
+| 内容1  | 内容2  | 内容3 |
+| 内容4  | 内容5  | 内容6 |
+“`
 ## 5. Acknowledgment
 
 The dataset, requirements, and data preparation follow the setting of [KG-GPT](https://github.com/jiho283/KG-GPT/). 
