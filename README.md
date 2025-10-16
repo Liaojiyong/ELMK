@@ -40,7 +40,7 @@ Run
     python pretrain_encoder.py --hop <hop>
     cd ..
 
-## 4. Evaluation
+## 5. Evaluation
 
 To test the trained model:
 
@@ -50,16 +50,16 @@ Run
     python evaluate.py --hop <hop> --k <Tok-k>
     cd ..
 
-## Experimental Settings
+## 6. Experimental Settings
 
 We have incorporated two baseline methods and benchmark datasets:
 
 | Baseline | Paper                                                                             | Code   |
 |----------|-----------------------------------------------------------------------------------|--------|
-| KG-GPT   | A General Framework for Reasoning on Knowledge Graphs Using Large Language Models | KG-GPT |
-| KELP     | Knowledge Graph-Enhanced Large Language Models via Path Selection                 | KELP   |
+| KG-GPT   | A General Framework for Reasoning on Knowledge Graphs Using Large Language Models | [KG-GPT](https://github.com/jiho283/KG-GPT) |
+| KELP     | Knowledge Graph-Enhanced Large Language Models via Path Selection                 | [KELP](https://github.com/HaochenLiu2000/KELP)|
 
-## 5. Acknowledgment
+## Acknowledgment
 
 The dataset, requirements, and data preparation follow the setting of [KG-GPT](https://github.com/jiho283/KG-GPT/). 
 Thanks to the authors and developers!
