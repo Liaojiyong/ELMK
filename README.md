@@ -32,7 +32,7 @@ Run
 
 ## 4. Training
 
-Train our multi-path encoder on subgraphs. Before training, load the [all-mpnet-base-v2 model](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) model from Hugging Face.
+Train our multi-path encoder on subgraphs. Before training, load the [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) model from Hugging Face.
 
 Run
 
