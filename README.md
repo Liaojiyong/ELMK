@@ -20,7 +20,7 @@ Write your own OpenAI API key in factkg/openai_api_key.txt and MetaQA/openai_api
 
 ## 3. Building of the Training Sub-dataset
 
-To build the specific training sub-data from the original datasets:
+To build the specific training sub-dataset from the original datasets:
 
 Run
 
@@ -32,7 +32,9 @@ Run
 
 ## 4. Training
 
-To train our multi-path encoder on subgraph:
+Train our multi-path encoder on subgraphs. Before training, load the all-mpnet-base-v2 model (https://huggingface.co/sentence-transformers/all-mpnet-base-v2)  from Hugging Face.
+
+[all-mpnet-base-v2 model](https://huggingface.co/sentence-transformers/all-mpnet-base-v).
 
 Run
 
