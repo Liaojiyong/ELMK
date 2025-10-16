@@ -4,7 +4,9 @@ The dataset, requirements, and data preparation follow the setting of [KG-GPT](h
 Download [FactKG](https://github.com/jiho283/FactKG) and [MetaQA](https://github.com/yuyuz/MetaQA) here.
 
 Place the files or folders `kb.txt`, `1-hop/vanilla`, `2-hop/vanilla`  `3-hop/vanilla` under `./metaQA`.
-For data preprocessing, run:
+For data preprocessing, 
+
+Run
 
     cd MetaQA/data
     python preprocess.py --hop <hop>
