@@ -80,7 +80,7 @@ question_model.eval()
 
 client = OpenAI(
     api_key=open_file(openai_key_file),
-    base_url="https://xh.v1api.cc/v1",
+    base_url = "xxxxx"       # input your url
 )
 
 def build_subgraph(entity_set, knowledge_graph, max_hop):
