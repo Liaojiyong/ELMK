@@ -18,7 +18,7 @@ Run
 
 Write your own OpenAI API key in factkg/openai_api_key.txt and MetaQA/openai_api_key.txt and save them.
 
-## 3. Building of the Training Sub-data
+## 3. Building of the Training Sub-dataset
 
 To build the specific training sub-data from the original datasets:
 
@@ -32,7 +32,7 @@ Run
 
 ## 4. Training
 
-To train our model on subgraph:
+To train our multi-path encoder on subgraph:
 
 Run
 
