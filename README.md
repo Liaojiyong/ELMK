@@ -32,7 +32,7 @@ Run
 
 ## 4. Training
 
-Train our multi-path encoder on subgraphs. Before training, load the [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) model from Hugging Face. Note that you should download the models (including the file tokenizer.model and the folder that store the parameters of the all-mpnet-base-v2) in folder .\sentence-transformers. For example, you may have the following file structure.
+Before training, load the [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) model from Hugging Face. Note that you should download the models (including the file tokenizer.model and the folder that store the parameters of the all-mpnet-base-v2) in folder .\sentence-transformers. For example, you may have the following file structure.
 
 ```text
 |-- sentence-transformers
@@ -47,6 +47,8 @@ Train our multi-path encoder on subgraphs. Before training, load the [all-mpnet-
             |-- config.json
 ```
     
+Train our multi-path encoder on subgraphs. 
+
 Run
 
     cd MetaQA/encoder
