@@ -45,8 +45,7 @@ Train our multi-path encoder on subgraphs. Before training, load the [all-mpnet-
         |-- tokenizer.json
         |-- 1_Pooling
             |-- config.json
-
-
+```
     
 Run
 
