@@ -32,14 +32,14 @@ Run
 
 ## 4. Training
 
-Before training, load the [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) model from Hugging Face. Note that you should download the models (including the file tokenizer.model and the folder that store the parameters of the all-mpnet-base-v2) in folder .\sentence-transformers. For example, you may have the following file structure.
+Before training, load the [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) model from Hugging Face. Note that you should download the models (including the file pytorch_model.bin and the folder that store the parameters of the all-mpnet-base-v2) in folder .\sentence-transformers. For example, you may have the following file structure.
 
 ```text
 |-- sentence-transformers
     |-- all-mpnet-base-v2
         |-- config.json
         |-- modules.json
-        |-- pytorch_model.json
+        |-- pytorch_model.bin
         |-- sentence_bert_config.json
         |-- tokenizer_config.json
         |-- tokenizer.json
