@@ -62,7 +62,7 @@ if hop == 1:
 elif hop == 2:
     question_data = "../data/2_hop_test.jsonl"
 else:
-    question_data = "../data/3_hop_sample3000.jsonl"
+    question_data = "../data/3_hop_test.jsonl"
 
 def open_file(filepath):
     with open(filepath, "r", encoding="utf-8") as infile:
