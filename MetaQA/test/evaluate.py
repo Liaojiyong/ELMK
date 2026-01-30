@@ -30,10 +30,12 @@ top_p = 0.1
 parser = argparse.ArgumentParser(description="Parsing input arguments.")
 parser.add_argument("--question_model", type=str, default=None, required=False, help="Path to question encoder checkpoint (auto-pick by hop if omitted)")
 parser.add_argument("--hop", type=int, required=True, choices=[1, 2, 3], help="Number of hops")
+parser.add_argument("--c", type=int, required=True, help="the cluster number for k-means")
 parser.add_argument("--k", type=int, required=True, help="The Top-K path to be selected depends on the hop, please refer to allowed_k_by_hop dictionary")
 parser.add_argument("--model_path", type=str, default="../encoder/sentence-transformers/all-mpnet-base-v2")
 args = parser.parse_args()
 hop = args.hop
+c = args.c
 k = args.k
 model_path = args.model_path
 
@@ -313,7 +315,7 @@ def main():
             positive_embedding = encode_texts_in_batches( question_model, tokenizer, path_texts, device, batch_size=encode_batch_size, max_length=max_seq_len)
         else:
             positive_embedding = np.zeros((0, question_embedding.size), dtype=np.float32)
-        n_clusters = min(len(path_texts), 4) if len(path_texts) > 0 else 1                     
+        n_clusters = min(len(path_texts), c) if len(path_texts) > 0 else 1                     
         selected_paths = select_paths_kmeans(path_texts, positive_embedding, question_embedding, k, n_clusters)
         context_texts = "[" + ", ".join(selected_paths) + "]"
 
